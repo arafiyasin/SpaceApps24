@@ -9,8 +9,8 @@ This project consists of two separate applications that serve different purposes
 - Homepage App - This app serves as the main interface for users. It contains a **About, Introduction, Team Members info** button that redirects to the Play App when clicked.
 - Play App - This app allows users to interact and engage with the content.
 
-Homepage App : https://spaceapps24-exo-explorer-home.streamlit.app/
-Play App : https://spaceapps24-exo-explorer-play.streamlit.app/
+### Homepage App : https://spaceapps24-exo-explorer-home.streamlit.app/
+### Play App : https://spaceapps24-exo-explorer-play.streamlit.app/
 
 
 Please click on the links above to access each application.
