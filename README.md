@@ -1,7 +1,6 @@
-# SpaceApp2024
-NASA Seattle Space App Challenge 2024
-
 # EXO-Explorer
+SpaceApps2024 : NASA Seattle Space App Challenge 2024
+
 
 ## Overview
 This project consists of two separate applications that serve different purposes. Due to technical issues and time constraints, they have been organized into individual links.
