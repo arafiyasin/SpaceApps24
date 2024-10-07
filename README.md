@@ -17,7 +17,11 @@ This project consists of two separate applications that serve different purposes
 
 Please click on the links above to access each application.
 
-
+# APP preview 
+![Intro Page](./intro.png) 
+![Spherical View](./Spherical_View.png) 
+![Landing view](./Landing_view.png) 
+![Telescope view](./Telescope_view.png)
 
 # Connecting Github to VSC
 1) **Download and Install Anaconda:** Visit the [Anaconda website](https://www.anaconda.com/download) and download the installer for your specific operating system.
