@@ -161,7 +161,7 @@ def exoplanent_content():
 
 # Function to display telescope/star chart view
 def show_telescope_view():
-    st.title("Interactive Star Chart with Free Drawing")
+    st.title("Telescope View and constellation drawing")
 
     # Example fallback dataset if Gaia query fails
     def fallback_star_data():
@@ -313,7 +313,7 @@ def set_cssLanding():
 
 # Function to display the 360° view for the exoplanet
 def show_360_LandView(exoplanet_name, iframe_link):
-    st.title(f"{exoplanet_name} - 360° View")
+    st.title(f"{exoplanet_name} - landing View")
     st.markdown(f'<iframe src="{iframe_link}" width=700 height=700 style="border:0;" allow="fullscreen"></iframe>', unsafe_allow_html=True)
     col1, col2, col3 = st.columns(3)
     with col1:
