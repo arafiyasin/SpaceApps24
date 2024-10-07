@@ -1,6 +1,8 @@
 # EXO-Explorer
 SpaceApps2024 : NASA Seattle Space App Challenge 2024
 
+### Direct link to play : https://spaceapps24-exo-explorer-play.streamlit.app/
+
 
 ## Overview
 This project consists of two separate applications that serve different purposes. Due to technical issues and time constraints, they have been organized into individual links.
