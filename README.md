@@ -1,6 +1,18 @@
 # SpaceApp2024
 NASA Seattle Space App Challenge 2024
 
+# EXO-Explorer
+
+## Overview
+This project consists of two separate applications that serve different purposes. Due to technical issues and time constraints, they have been organized into individual links.
+
+## Links to Applications
+- [Homepage App]([link_to_homepage_app](https://spaceapps24-exo-explorers.streamlit.app/)) - This app serves as the main interface for users. It contains a **Play** button that redirects to the Play App when clicked.
+- [Play App]([link_to_play_app](https://spaceapps24-exo-explorers.streamlit.app/)) - This app allows users to interact and engage with the content.
+
+Please click on the links above to access each application.
+
+
 
 # Connecting Github to VSC
 1) **Download and Install Anaconda:** Visit the [Anaconda website](https://www.anaconda.com/download) and download the installer for your specific operating system.
