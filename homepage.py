@@ -223,8 +223,8 @@ with tab2:
     )
         
         #st.session_state.current_page = 'exoplanet_3D'  # Set current page to exoplanet_3D
-        run_other_app()
-        st.success("Exoplanet 3D App is now running!")
+        #run_other_app()
+        #st.success("Exoplanet 3D App is now running!")
         
       
         
