@@ -216,8 +216,13 @@ with tab2:
     
         # Buttons for navigation in the main content area
     if st.button("Play Now!"):
+        # Open the link in a new tab/window
+        st.markdown(
+        f'<a href="https://spaceapps24-exo-explorer-play.streamlit.app/" target="_blank" style="text-decoration: none;">Play Now!</a>',
+        unsafe_allow_html=True
+    )
+        
         #st.session_state.current_page = 'exoplanet_3D'  # Set current page to exoplanet_3D
-    
         run_other_app()
         st.success("Exoplanet 3D App is now running!")
         
