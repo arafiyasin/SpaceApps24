@@ -215,14 +215,10 @@ with tab2:
         subprocess.Popen(["streamlit", "run", exoplanet_app_path])
     
         # Buttons for navigation in the main content area
-    if st.button("Play Now!"):
-        # Open the link in a new tab/window
-        st.markdown(
-        """
-        <iframe src="https://spaceapps24-exo-explorer-play.streamlit.app/" width="100%" height="600px" frameborder="0"></iframe>
-        """,
-        unsafe_allow_html=True
-        )
+   if st.button("Play Now!"):
+        st.experimental_set_query_params(page="https://spaceapps24-exo-explorer-play.streamlit.app/")
+        st.markdown("<meta http-equiv='refresh' content='0; url=https://spaceapps24-exo-explorer-play.streamlit.app/'>", unsafe_allow_html=True)  
+
         
         #st.session_state.current_page = 'exoplanet_3D'  # Set current page to exoplanet_3D
         #run_other_app()
