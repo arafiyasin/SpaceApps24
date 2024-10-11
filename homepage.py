@@ -206,18 +206,11 @@ with tab2:
     st.markdown('<div class="video-container">', unsafe_allow_html=True)
     st.video(data)
     st.markdown('</div>', unsafe_allow_html=True)
-    # Function to run another Streamlit app
-    def run_other_app():
-        # Define the path to your other Streamlit app
-        exoplanet_app_path = "Exo-Explorer/Exoplanet_3D.py"
 
-        # Run the other app as a subprocess
-        subprocess.Popen(["streamlit", "run", exoplanet_app_path])
-    
-        # Buttons for navigation in the main content area
-   if st.button("Play Now!"):
+    # Change the Play button to redirect to the provided URL
+    if st.button("Play Now!"):
         st.experimental_set_query_params(page="https://spaceapps24-exo-explorer-play.streamlit.app/")
-        st.markdown("<meta http-equiv='refresh' content='0; url=https://spaceapps24-exo-explorer-play.streamlit.app/'>", unsafe_allow_html=True)  
+        st.markdown("<meta http-equiv='refresh' content='0; url=https://spaceapps24-exo-explorer-play.streamlit.app/'>", unsafe_allow_html=True)
 
         
         #st.session_state.current_page = 'exoplanet_3D'  # Set current page to exoplanet_3D
