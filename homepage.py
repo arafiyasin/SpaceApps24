@@ -209,8 +209,8 @@ with tab2:
 
     # Change the Play button to redirect to the provided URL
     if st.button("Play Now!"):
-        #st.experimental_set_query_params(page="https://spaceapps24-exo-explorer-play.streamlit.app/")
-        st.markdown("<meta http-equiv='refresh' content='0; url=https://spaceapps24-exo-explorer-play.streamlit.app/'>", unsafe_allow_html=True)
+        st.experimental_set_query_params(page="https://spaceapps24-exo-explorer-play.streamlit.app/")
+        st.markdown("<meta http-equiv='refresh' content='0; url=https://spaceapps24-exo-explorer-play.streamlit.app/'>", unsafe_allow_html=True)  
 
         
         #st.session_state.current_page = 'exoplanet_3D'  # Set current page to exoplanet_3D
